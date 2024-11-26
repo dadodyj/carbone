@@ -1,0 +1,18 @@
+body{
+    background-color: lightgray;
+}
+img{
+    width: 300px;
+    height: 300px;
+    animation: gira 3s infinite;
+}
+div{
+    
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes gira{
+    to{transform: rotateX(360deg);}
+}
