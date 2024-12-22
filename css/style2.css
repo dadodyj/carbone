@@ -9,7 +9,6 @@
 }
 .container > div{
     box-shadow: 10px 10px 30px 10px black;
-    height: 337.5px;
 }
 video{
     width: 700px;
@@ -26,18 +25,12 @@ video{
         width: 550px;
         height: fit-content;
     }
-    .container > div{
-        height: 309.38px;
-        margin-bottom: 20px;
-    }
 }
 @media screen and (max-width: 500px ){
     video{
         width: 300px;
-        height: 300px;
     }
     .container > div{
-        height: 300px;
         box-shadow: none ;
     }
 }
