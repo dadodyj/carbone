@@ -1,6 +1,4 @@
-body{
-    background-color: lightgoldenrodyellow;
-}
+
 .container{
     display: flex;
     justify-content: space-evenly;
