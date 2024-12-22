@@ -40,6 +40,6 @@ video{
     }
     .container > div{
         height: 300px;
-        margin-bottom: 20px;
+        box-shadow: none ;
     }
 }
