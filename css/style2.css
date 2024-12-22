@@ -1,0 +1,35 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+
+}
+.container > div{
+    box-shadow: 10px 10px 30px 10px black;
+    height: 337.5px;
+}
+video{
+    width: 700px;
+    height: fit-content;
+}
+@media screen and (max-width: 1700px){
+    video{
+        width: 600px;
+        height: fit-content;
+    }
+}
+@media screen and (max-width: 1300px ){
+    video{
+        width: 550px;
+        height: fit-content;
+    }
+    .container > div{
+        height: 309.38px;
+        margin-bottom: 20px;
+    }
+}
